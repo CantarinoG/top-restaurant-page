@@ -1,0 +1,61 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px;
+    grid-auto-rows: 200px;
+    row-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 500;
+    text-shadow: 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000;
+    text-align: center;
+}
+
+.grid-item:nth-child(1) {
+    background-image: url('../imgs/ham-and-baked-ricotta-cheesecake-platter-106628-1.jpeg');
+}
+
+.grid-item:nth-child(2) {
+    background-image: url('../imgs/macadamia-crusted-lamb-with-chilli-and-macadamia-sambal-108320-1.jpeg');
+}
+
+.grid-item:nth-child(3) {
+    background-image: url('../imgs/new-zucchini-slice-104349-1.jpeg');
+}
+
+.grid-item:nth-child(4) {
+    background-image: url('../imgs/pizza-bianco-with-gorgonzola-and-zucchini-108464-1.jpeg');
+}
+
+.grid-item:nth-child(5) {
+    background-image: url('../imgs/spiced-pineapple-and-sake-glazed-ham-106684-1.jpeg');
+}
+
+.grid-item:nth-child(6) {
+    background-image: url('../imgs/tiramisu-french-toast-109927-1.jpeg');
+}
+
+.grid-item:nth-child(7) {
+    background-image: url('../imgs/white-chocolate-and-mascarpone-cheesecake-with-mulberry-compote-106312-1.jpeg');
+}
+
+.grid-item:nth-child(8) {
+    background-image: url('../imgs/white-chocolate-cream-and-strawberry-mille-feuille-107888-1.jpeg');
+}
+
+@media (max-width: 800px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}

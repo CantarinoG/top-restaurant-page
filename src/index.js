@@ -1,9 +1,7 @@
-import './imgs/bg.png';
-import home from './imgs/home.jpg';
-
 import './styles/layout.css';
-
 import './styles/home.css';
+import './styles/menu.css';
+
 import { renderHome } from './scripts/home.js';
 import { renderMenu } from './scripts/menu.js';
 import { renderContact } from './scripts/contact.js';
