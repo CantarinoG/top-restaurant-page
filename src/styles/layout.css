@@ -18,13 +18,13 @@ body {
     background-repeat: no-repeat;
     color: white;
     position: relative;
+    overflow-x: hidden;
 }
 
 header {
     display: flex;
     padding: 30px;
     gap: calc(100% - 400px);
-    margin-bottom: 24px;
 }
 
 nav {
@@ -63,6 +63,10 @@ footer {
     font-family: var(--roboto);
     font-size: xx-small;
     opacity: 0.5;
+}
+
+.content {
+    padding: 40px 18%;
 }
 
 @media (max-width: 540px) {

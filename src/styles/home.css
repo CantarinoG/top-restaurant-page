@@ -1,0 +1,37 @@
+.content {
+    font-family: var(--italiana);
+}
+
+.quote {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.author {
+    margin-top: 8px;
+    text-align: end;
+    display: block;
+    font-weight: 400;
+}
+
+.home-img {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    aspect-ratio: 1/1;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.p1 {
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.p2 {
+    text-align: center;
+}
