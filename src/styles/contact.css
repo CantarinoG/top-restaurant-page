@@ -1,0 +1,19 @@
+h1,
+p {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+p {
+    font-size: larger;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-img {
+    cursor: pointer;
+}
